@@ -11,8 +11,10 @@ class Solution(object):
         """
         prev=None
         while head:
-          curr=head
-          head=head.next
-          curr.next=prev
-          prev=curr
+            curr=head
+            head=head.next
+            curr.next=prev
+            prev=curr
         return prev
+        
+        
